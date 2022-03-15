@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-13T12:39:16 IST" name="Default suite" finished-at="2022-03-13T12:39:18 IST" duration-ms="1810">
+  <suite started-at="2022-03-15T18:18:07 IST" name="Default suite" finished-at="2022-03-15T18:18:14 IST" duration-ms="7443">
     <groups>
     </groups>
-    <test started-at="2022-03-13T12:39:16 IST" name="Default test" finished-at="2022-03-13T12:39:18 IST" duration-ms="1810">
-      <class name="Automation.NapierHealth.Landing">
-        <test-method signature="credentialPage(java.lang.String,java.lang.String)[pri:0, instance:Automation.NapierHealth.Landing@55e2fe3c]" started-at="2022-03-13T12:39:16 IST" name="credentialPage" data-provider="getData" finished-at="2022-03-13T12:39:18 IST" duration-ms="1279" status="PASS">
+    <test started-at="2022-03-15T18:18:07 IST" name="Default test" finished-at="2022-03-15T18:18:14 IST" duration-ms="7443">
+      <class name="Automation.NapierHealth.IncidentReporting">
+        <test-method signature="credentialPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.NapierHealth.IncidentReporting@41b1f51e]" started-at="2022-03-15T18:18:07 IST" name="credentialPage" data-provider="getData" finished-at="2022-03-15T18:18:14 IST" duration-ms="7375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,15 +19,16 @@
                 <![CDATA[User@1]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[120220221839]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- credentialPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.NapierHealth.Landing@55e2fe3c]" started-at="2022-03-13T12:39:18 IST" name="teardown" finished-at="2022-03-13T12:39:18 IST" duration-ms="395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Automation.NapierHealth.Landing -->
+      </class> <!-- Automation.NapierHealth.IncidentReporting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

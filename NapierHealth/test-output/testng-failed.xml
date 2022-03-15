@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.NapierHealth.Department">
+      <class name="Automation.NapierHealth.IncidentReporting">
         <methods>
           <include name="credentialPage" invocation-numbers="0"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- Automation.NapierHealth.Department -->
+      </class> <!-- Automation.NapierHealth.IncidentReporting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
